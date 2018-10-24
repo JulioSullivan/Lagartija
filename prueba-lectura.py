@@ -3,7 +3,10 @@ import pdb
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import TruncatedSVD
 import re
+import gensim
+from gensim import corpora, models, similarities
 
+"""
 scaffolds = []
 with open('prueba.fa') as f, open("out.fa", "w") as o:
     row = []
@@ -29,6 +32,7 @@ with open('prueba.fa') as f, open("out.fa", "w") as o:
     row.append(dna1d)
     scaffolds.append(row) 
     o.write("%s\t%s\n"%(row[0],row[1]))
+"""
 
 class Iterador(object):
     """
@@ -39,16 +43,23 @@ class Iterador(object):
     load the entire corpus into RAM.
  
     """
-    def __init__(self, archivo):
+    def __init__(self, archivo, analyzer):
         self.archivo = archivo
+        self.analyzer = analyzer
+        self.dictionary = gensim.corpora.Dictionary(self.generador())
  
     def __iter__(self):
         """
         Again, __iter__ is a generator => TxtSubdirsCorpus is a streamed iterable.
         """
+        for scaffold in self.generador():
+            yield self.dictionary.doc2bow(scaffold) 
+
+    def generador(self):
         with open(self.archivo) as f:
             for line in f:
-                yield line.split("\t")[1]
+                yield self.analyzer(re.sub('N','',line.split("\t")[1]))
+
 
 def display_topics(model, feature_names, no_top_words):
     for topic_idx, topic in enumerate(model.components_):
@@ -56,36 +67,21 @@ def display_topics(model, feature_names, no_top_words):
         print(" ".join([feature_names[i]
             for i in topic.argsort()[:-no_top_words - 1:-1]]))
 
+vectorizer = TfidfVectorizer(decode_error='replace', analyzer='char', ngram_range=(3,10), lowercase=False)
 
-it = Iterador('out.fa')
+
+it = Iterador('out.fa', vectorizer.build_analyzer())
+
+tfidf = models.TfidfModel(it)
+
+corpus_tfidf = tfidf[it]
 
 
-vectorizer = TfidfVectorizer(decode_error='replace', analyzer='char', ngram_range=(3,10), lowercase='false')
-
-#x_vectorizer = vectorizer.fit_transform(it)
-x_vectorizer = vectorizer.fit(it)
-voc = vectorizer.vocabulary_
-vocList = vectorizer.vocabulary_.keys()
-
-r = re.compile("^n*$")
-ns = list(filter(r.match, vocList))
-
-for n in ns:
-    del vectorizer.vocabulary_[n]
-
-if "nnn" in vocList:
-    print("hola")
-
-vectorizer = TfidfVectorizer(vocabulary=vectorizer.vocabulary_.keys())
-x_vectorizer = vectorizer.fit_transform(it)
 no_topics = 3
-nmf = TruncatedSVD(n_components=no_topics, random_state=1).fit(x_vectorizer)
-print(x_vectorizer.shape)
-print(len(vectorizer.vocabulary_))
-
-tfidf_feature_names = vectorizer.get_feature_names()
-no_top_words = 10
-display_topics(nmf, tfidf_feature_names, no_top_words)
+lsi = models.LsiModel(corpus_tfidf, id2word=it.dictionary, num_topics=no_topics)
+lsi.print_topics(no_topics)
+##corpus_lsi = lsi[corpus_tfidf]
+pdb.set_trace()
 
 
 
