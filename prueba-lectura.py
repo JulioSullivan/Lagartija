@@ -5,34 +5,7 @@ from sklearn.decomposition import TruncatedSVD
 import re
 import gensim
 from gensim import corpora, models, similarities
-
-"""
-scaffolds = []
-with open('prueba.fa') as f, open("out.fa", "w") as o:
-    row = []
-    dna = []
-    for n, line in enumerate(f):
-        if "REF" in line and n == 0:
-            row.append(line.replace('\n',''))
-            dna = []
-        elif "REF" in line and n > 0:
-            dna1d = ''.join(dna)
-            #pdb.set_trace()
-            row.append(dna1d)
-            scaffolds.append(row)
-            o.write("%s\t%s\n"%(row[0],row[1]))
-            row = []
-            dna = []
-            dna1d = []
-            row.append(line.replace('\n',''))
-        else:
-            dna.append(line.replace('\n',''))
-
-    dna1d = ''.join(dna)
-    row.append(dna1d)
-    scaffolds.append(row) 
-    o.write("%s\t%s\n"%(row[0],row[1]))
-"""
+import pickle
 
 class Iterador(object):
     """
@@ -67,15 +40,19 @@ def display_topics(model, feature_names, no_top_words):
         print(" ".join([feature_names[i]
             for i in topic.argsort()[:-no_top_words - 1:-1]]))
 
-vectorizer = TfidfVectorizer(decode_error='replace', analyzer='char', ngram_range=(3,10), lowercase=False)
+vectorizer = TfidfVectorizer(decode_error='replace', analyzer='char', ngram_range=(3,5), lowercase=False)
 
+dic = open('dic.txt', 'wb')
+# Crea el vocabulario o el iterador
+it = Iterador('completo.fa', vectorizer.build_analyzer())
 
-it = Iterador('out.fa', vectorizer.build_analyzer())
-
+pdb.set_trace()
+# Creación del tfidf de acuerdo al vocabulario
 tfidf = models.TfidfModel(it)
 
+# Dependiendo de la primea lectura, vuelve a evaluar los datos
 corpus_tfidf = tfidf[it]
-
+ 
 
 no_topics = 3
 lsi = models.LsiModel(corpus_tfidf, id2word=it.dictionary, num_topics=no_topics)
