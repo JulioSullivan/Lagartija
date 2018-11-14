@@ -1,4 +1,0 @@
-
-Performing grid search...
-pipeline: cromosoma
-parameters: {'clf__kernel': ('linear', 'poly'), 'clf__degree': (1, 2), 'clf__C': (10, 5)}
