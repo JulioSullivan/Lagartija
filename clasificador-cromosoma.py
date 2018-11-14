@@ -50,22 +50,31 @@ with open(inputfa) as file:
     for line in file:
         Y.append(line.split('\t')[0])
 """
-cromosoma = Pipeline([('tfidf', TfidfVectorizer(decode_error='replace', analyzer='char', ngram_range=(3,5), lowercase=False)),
+cromosoma = Pipeline([
+    ('tfidf', TfidfVectorizer(decode_error='replace', analyzer='char', ngram_range=(3,5), lowercase=False)),
     ('clf', SGDClassifier(loss='hinge', penalty='l2', alpha=1e-3, random_state=42, max_iter=5, tol=None, n_jobs=-1)),
 ])
 """
-cromosoma = Pipeline([('tfidf', TfidfVectorizer(decode_error='replace', analyzer='char', ngram_range=(3,5), lowercase=False)),
-    ('clf', svm.SVC(gamma='auto', random_state=42, max_iter=5)),
+cromosoma = Pipeline([
+    ('tfidf', TfidfVectorizer(decode_error='replace', analyzer='char', ngram_range=(3,5), lowercase=False)),
+    ('clf', svm.SVC(gamma='auto', random_state=42)),
 ])
 
-
-
+parameters = {
+    'clf__kernel': ('linear','poly'),
+    'clf__degree': (1,2),
+    'clf__C': (10,5),
+    # 'clf__max_iter': (10, 50, 80),
+}
 indices = list(range(len(Y)))
 in_train, in_test = train_test_split(indices, train_size = 0.7)
 getter_train = itemgetter(*in_train)
 
 it = Iterador(inputfa, in_train)
-cromosoma.fit(it, getter_train(Y))
+# cromosoma.fit(it, getter_train(Y))
+
+grid = GridSearchCV(cromosoma, cv=3,  n_jobs=-1, param_grid=parameters, verbose=100)
+grid.fit(list(it), getter_train(Y))
 
 """"
 test_file = '/home/juliosullivan/Documents/test.fa'
@@ -80,49 +89,8 @@ with open(test_file) as file:
 getter_test =  itemgetter(*in_test)
 it_test = Iterador(inputfa, in_test)
 
-predicted = cromosoma.predict(it_test)
+predicted = grid.predict(it_test)
 print(getter_test(Y))
 print(predicted)
 print(classification_report(getter_test(Y), predicted))
 
-N_FEATURES_OPTIONS = ['Scaffold']
-C_OPTIONS = [0, 1]
-
-param_grid = [
-    {
-        'reduce_dim': [TfidfVectorizer(decode_error='replace', analyzer='char', ngram_range=(3,5), lowercase=False)],
-        'reduce_dim__n_components': N_FEATURES_OPTIONS,
-        'classify__C': C_OPTIONS
-    },
-    {
-        'reduce_dim': [SelectKBest(chi2)],
-        'reduce_dim__k': N_FEATURES_OPTIONS,
-        'classify__C': C_OPTIONS
-    },
-]
-reducer_labels = ['TfidfVectorizer', 'KBest(chi2)']
-
-grid = GridSearchCV(cromosoma, cv=5,  n_jobs=-1, param_grid=param_grid)
-grid.fit(list(it), getter_train(Y))
-
-mean_scores = np.array(grid.cv_results_['mean_test_score'])
-# scores are in the order of param_grid iteration, which is alphabetical
-mean_scores = mean_scores.reshape(len(C_OPTIONS), 1, len(N_FEATURES_OPTIONS))
-# select score for best C
-mean_scores = mean_scores.max(axis=0)
-bar_offsets = (np.arange(len(N_FEATURES_OPTIONS)) *
-               (len(reducer_labels) + 1) + .5)
-
-plt.figure()
-COLORS = 'bgrcmyk'
-for i, (label, reducer_scores) in enumerate(zip(reducer_labels, mean_scores)):
-    plt.bar(bar_offsets + i, reducer_scores, label=label, color=COLORS[i])
-
-plt.title("Comparing feature reduction techniques")
-plt.xlabel('Reduced number of features')
-plt.xticks(bar_offsets + len(reducer_labels) / 2, N_FEATURES_OPTIONS)
-plt.ylabel('Digit classification accuracy')
-plt.ylim((0, 1))
-plt.legend(loc='upper left')
-
-plt.show()
