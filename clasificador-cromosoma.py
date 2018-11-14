@@ -76,21 +76,22 @@ it = Iterador(inputfa, in_train)
 
 grid = GridSearchCV(cromosoma, cv=3,  n_jobs=-1, param_grid=parameters, verbose=100)
 
-resGRID = open('resultadosGRID.txt', 'a')
+resGRID = open('resultadosGRID.txt', 'w')
+resGRID.flush()
 
 resGRID.write("Performing grid search...")
-resGRID.write("pipeline: cromosoma")
-resGRID.write("parameters: " + str(parameters))
+resGRID.write("\npipeline: cromosoma")
+resGRID.write("\nparameters: " + str(parameters))
 t0 = time()
 grid.fit(list(it), getter_train(Y))
-resGRID.write("done in %0.3fs" % (time() - t0))
+resGRID.write("\ndone in %0.3fs" % (time() - t0))
 resGRID.write('\n')
 
-resGRID.write("Best score: %0.3f" % grid.best_score_)
-resGRID.write("Best parameters set:")
+resGRID.write("\nBest score: %0.3f" % grid.best_score_)
+resGRID.write("\nBest parameters set:")
 best_parameters = grid.best_estimator_.get_params()
 for param_name in sorted(parameters.keys()):
-    resGRID.write("\t%s: %r" % (param_name, best_parameters[param_name]))
+    resGRID.write("\n\t%s: %r" % (param_name, best_parameters[param_name]))
 
 
 """"
