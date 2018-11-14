@@ -63,8 +63,8 @@ cromosoma = Pipeline([
 
 parameters = {
     'clf__kernel': ('linear','poly'),
-    'clf__degree': (1,2),
-    'clf__C': (10,5),
+    'clf__degree': (1,2,3,4,5),
+    'clf__C': (1,5,10,50,100,500,1000),
     # 'clf__max_iter': (10, 50, 80),
 }
 indices = list(range(len(Y)))
