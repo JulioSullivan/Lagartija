@@ -12,7 +12,7 @@ from pdb import set_trace as st
 import random
 from time import time
 from sklearn.externals import joblib
-from sklearn.decomposition import TruncatedSVD
+
 
 class Iterador(object):
     """
@@ -57,22 +57,16 @@ cromosoma = Pipeline([
 ])
 """
 cromosoma = Pipeline([
-    ('tfidf', TfidfVectorizer(decode_error='replace', 
-                analyzer='char', ngram_range=(3,5), 
-                lowercase=False)),
-    ('svd', TruncatedSVD()),
-    ('clf', svm.SVC(gamma='auto', random_state=42, C=50, 
-                    decision_function_shape='ovo')),
+    ('tfidf', TfidfVectorizer(decode_error='replace', analyzer='char', ngram_range=(3,5), lowercase=False)),
+    ('clf', svm.SVCii(gamma='auto', random_state=42, C=50)),
 ])
 
 parameters = {
-    'tfidf__ngram_range':((1, 2), (1,3), (2, 3), (2, 4), (2, 5),
-                         (3, 4), (3,5)),
-    'svd__n_components': (20, 50, 100, 150, 200, 250, 300),
+    'tfidf__ngram_range':((3,5), (4, 10), (5, 10), (10, 15)),
     'clf__kernel': ('linear','poly'),
-    'clf__degree': (1,2,3),
+    'clf__degree': (1,2,3,4),
     #'clf__degree': (1,2),
-    'clf__C': (1, 5, 10, 30, 50, 100),
+    'clf__C': (1, 5, 10, 30, 50, 70, 100, 500, 1000),
 }
 indices = list(range(len(Y)))
 in_train, in_test = train_test_split(indices, train_size = 0.7)
@@ -97,7 +91,7 @@ resGRID.write('\n')
 resGRID.write("\nBest score: %0.3f" % grid.best_score_)
 resGRID.write("\nBest parameters set:")
 best_parameters = grid.best_estimator_.get_params()
-for param_name in best_parameters:
+for param_name in sorted(parameters.keys()):
     resGRID.write("\n\t%s: %r" % (param_name, best_parameters[param_name]))
 
 
