@@ -81,7 +81,7 @@ getter_train = itemgetter(*in_train)
 it = Iterador(inputfa, in_train)
 # cromosoma.fit(it, getter_train(Y))
 
-grid = GridSearchCV(cromosoma, cv=3,  n_jobs=-1, param_grid=parameters, verbose=100)
+grid = GridSearchCV(cromosoma, cv=3,  n_jobs=15, param_grid=parameters, verbose=100)
 
 resGRID = open('resultadosGRID.txt', 'w')
 resGRID.flush()
