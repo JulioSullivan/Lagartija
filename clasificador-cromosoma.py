@@ -45,7 +45,7 @@ Y = []
 X = []
 
 inputfa = 'joinP1.fa'
-out_model = 'trained_model.pkl'
+out_model = 'trained_model_03.pkl'
 
 with open(inputfa) as file:
     for line in file:
@@ -83,7 +83,7 @@ it = Iterador(inputfa, in_train)
 
 grid = GridSearchCV(cromosoma, cv=3,  n_jobs=15, param_grid=parameters, verbose=100)
 
-resGRID = open('resultadosGRID.txt', 'w')
+resGRID = open('resultadosGRID_03.txt', 'w')
 resGRID.flush()
 
 resGRID.write("Performing grid search...")
