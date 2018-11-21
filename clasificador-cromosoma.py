@@ -44,8 +44,8 @@ vect = []
 Y = []
 X = []
 
-inputfa = 'joinP2.fa'
-out_model = 'trained_model_03.pkl'
+inputfa = 'joinP1.fa'
+out_model = 'trained_model_01.pkl'
 
 with open(inputfa) as file:
     for line in file:
@@ -60,13 +60,14 @@ cromosoma = Pipeline([
     ('tfidf', TfidfVectorizer(decode_error='replace', 
                 analyzer='char', ngram_range=(3,5), 
                 lowercase=False)),
+    ('svd', TruncatedSVD()), 
     ('clf', svm.SVC(gamma='auto', random_state=42, C=50, 
                     decision_function_shape='ovo')),
 ])
 
 parameters = {
-    'tfidf__ngram_range':((1, 2), (1,3), (2, 3), (2, 4), (2, 5),
-                         (3, 4), (3,5)),
+    'tfidf__ngram_range':((2, 3), (2, 4), (2, 5), (3, 4), (3,5)),
+    'svd__n_components':(20, 50, 100, 200, 300), 
     'clf__kernel': ('linear','poly'),
     'clf__degree': (1,2,3),
     #'clf__degree': (1,2),
@@ -81,7 +82,7 @@ it = Iterador(inputfa, in_train)
 
 grid = GridSearchCV(cromosoma, cv=3,  n_jobs=15, error_score=0.0 ,param_grid=parameters, verbose=100)
 
-resGRID = open('resultadosGRID_02_join.txt', 'w')
+resGRID = open('resultadosGRID_joinP1.txt', 'w')
 resGRID.flush()
 
 resGRID.write("Performing grid search...")
