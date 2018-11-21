@@ -1,0 +1,50 @@
+Performing grid search...
+pipeline: cromosoma
+parameters: {'countV__ngram_range': ((2, 3), (2, 4), (2, 5), (3, 4), (3, 5))}
+done in 314.523s
+
+Best score: 0.500
+Best parameters set:
+	countV__encoding: 'utf-8'
+	countV__dtype: <class 'numpy.int64'>
+	clf__class_prior: None
+	memory: None
+	countV__min_df: 1
+	countV__binary: False
+	countV__vocabulary: None
+	countV__input: 'content'
+	countV: CountVectorizer(analyzer='char', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=False, max_df=1.0, max_features=None, min_df=1,
+        ngram_range=(2, 4), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+	countV__preprocessor: None
+	steps: [('countV', CountVectorizer(analyzer='char', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=False, max_df=1.0, max_features=None, min_df=1,
+        ngram_range=(2, 4), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)), ('clf', MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True))]
+	countV__strip_accents: None
+	countV__stop_words: None
+	countV__tokenizer: None
+	countV__analyzer: 'char'
+	clf__fit_prior: True
+	countV__ngram_range: (2, 4)
+	countV__decode_error: 'strict'
+	countV__token_pattern: '(?u)\\b\\w\\w+\\b'
+	clf__alpha: 1.0
+	clf: MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True)
+	countV__max_features: None
+	countV__lowercase: False
+	countV__max_df: 1.0
+Classification report:
+             precision    recall  f1-score   support
+
+          0       0.47      0.32      0.38        28
+          1       0.54      0.69      0.60        32
+
+avg / total       0.51      0.52      0.50        60
+
+Model properties:
