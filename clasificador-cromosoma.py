@@ -81,7 +81,7 @@ getter_train = itemgetter(*in_train)
 it = Iterador(inputfa, in_train)
 # cromosoma.fit(it, getter_train(Y))
 
-grid = GridSearchCV(cromosoma, cv=3,  n_jobs=15, param_grid=parameters, verbose=100)
+grid = GridSearchCV(cromosoma, cv=3,  n_jobs=15, error_score=np.nan ,param_grid=parameters, verbose=100)
 
 resGRID = open('resultadosGRID_03.txt', 'w')
 resGRID.flush()
@@ -130,3 +130,4 @@ resGRID.close()
 
 # Luego, guardamos el modelo
 joblib.dump(grid.best_estimator_.named_steps['clf'], out_model, compress = 1)
+joblib.dump(grid.best_estimator_.named_steps['tfidf'], 'tfidf_model.pkl', compress = 1)
