@@ -44,7 +44,7 @@ vect = []
 Y = []
 X = []
 
-inputfa = 'joinP1.fa'
+inputfa = 'joinP2.fa'
 out_model = 'trained_model_03.pkl'
 
 with open(inputfa) as file:
@@ -81,7 +81,7 @@ it = Iterador(inputfa, in_train)
 
 grid = GridSearchCV(cromosoma, cv=3,  n_jobs=15, error_score=0.0 ,param_grid=parameters, verbose=100)
 
-resGRID = open('resultadosGRID_03.txt', 'w')
+resGRID = open('resultadosGRID_02_join.txt', 'w')
 resGRID.flush()
 
 resGRID.write("Performing grid search...")
