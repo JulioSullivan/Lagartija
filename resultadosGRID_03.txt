@@ -1,7 +1,0 @@
-Performing grid search...
-pipeline: cromosoma
-<<<<<<< HEAD
-parameters: {'tfidf__ngram_range': ((1, 2), (1, 3), (2, 3), (2, 4), (2, 5), (3, 4), (3, 5)), 'svd__n_components': (20, 50, 100, 150, 200, 250, 300), 'clf__kernel': ('linear', 'poly'), 'clf__degree': (1, 2, 3), 'clf__C': (1, 5, 10, 30, 50, 100)}
-=======
-parameters: {'tfidf__ngram_range': ((1, 2), (1, 3), (2, 3), (2, 4), (2, 5), (3, 4), (3, 5)), 'clf__kernel': ('linear', 'poly'), 'svd__n_components': (20, 50, 100, 150, 200, 250, 300), 'clf__C': (1, 5, 10, 30, 50, 100), 'clf__degree': (1, 2, 3)}
->>>>>>> 8f36a46a8bbb1e942bdaf4121dfed606cbad0a27

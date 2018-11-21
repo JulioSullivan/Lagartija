@@ -6664,3 +6664,918 @@ PID: 73998      Python 3.6.3: /home/iarroyof/anaconda2/envs/py36/bin/python
 
 ValueError: n_components must be < n_features; got 50 >= 25
 ___________________________________________________________________________
+Fitting 3 folds for each of 1764 candidates, totalling 5292 fits
+Fitting 3 folds for each of 1764 candidates, totalling 5292 fits
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OMP: Error #34: System unable to allocate necessary resources for OMP thread:
+OMP: System error #11: Resource temporarily unavailable
+OMP: Hint: Try decreasing the value of OMP_NUM_THREADS.
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+OMP: Error #34: System unable to allocate necessary resources for OMP thread:
+OMP: System error #11: Resource temporarily unavailable
+OMP: Hint: Try decreasing the value of OMP_NUM_THREADS.
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+OMP: Error #34: System unable to allocate necessary resources for OMP thread:
+OMP: System error #11: Resource temporarily unavailable
+OMP: Hint: Try decreasing the value of OMP_NUM_THREADS.
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+OMP: Error #34: System unable to allocate necessary resources for OMP thread:
+OMP: System error #11: Resource temporarily unavailable
+OMP: Hint: Try decreasing the value of OMP_NUM_THREADS.
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+OMP: Error #34: System unable to allocate necessary resources for OMP thread:
+OMP: System error #11: Resource temporarily unavailable
+OMP: Hint: Try decreasing the value of OMP_NUM_THREADS.
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+OMP: Error #34: System unable to allocate necessary resources for OMP thread:
+OMP: System error #11: Resource temporarily unavailable
+OMP: Hint: Try decreasing the value of OMP_NUM_THREADS.
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+OMP: Error #34: System unable to allocate necessary resources for OMP thread:
+OMP: System error #11: Resource temporarily unavailable
+OMP: Hint: Try decreasing the value of OMP_NUM_THREADS.
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OMP: Error #34: System unable to allocate necessary resources for OMP thread:
+OMP: System error #11: Resource temporarily unavailable
+OMP: Hint: Try decreasing the value of OMP_NUM_THREADS.
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OMP: Error #34: System unable to allocate necessary resources for OMP thread:
+OMP: System error #11: Resource temporarily unavailable
+OMP: Hint: Try decreasing the value of OMP_NUM_THREADS.
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[Parallel(n_jobs=15)]: Done   1 tasks      | elapsed:   38.7s
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+OMP: Error #34: System unable to allocate necessary resources for OMP thread:
+OMP: System error #11: Resource temporarily unavailable
+OMP: Hint: Try decreasing the value of OMP_NUM_THREADS.
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[Parallel(n_jobs=15)]: Done   2 tasks      | elapsed:   42.5s
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+OMP: Error #34: System unable to allocate necessary resources for OMP thread:
+OMP: System error #11: Resource temporarily unavailable
+OMP: Hint: Try decreasing the value of OMP_NUM_THREADS.
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+OMP: Error #34: System unable to allocate necessary resources for OMP thread:
+OMP: System error #11: Resource temporarily unavailable
+OMP: Hint: Try decreasing the value of OMP_NUM_THREADS.
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OMP: Error #34: System unable to allocate necessary resources for OMP thread:
+OMP: System error #11: Resource temporarily unavailable
+OMP: Hint: Try decreasing the value of OMP_NUM_THREADS.
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+OMP: Error #34: System unable to allocate necessary resources for OMP thread:
+OMP: System error #11: Resource temporarily unavailable
+OMP: Hint: Try decreasing the value of OMP_NUM_THREADS.
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[Parallel(n_jobs=15)]: Done   3 tasks      | elapsed:   57.4s
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+OMP: Error #34: System unable to allocate necessary resources for OMP thread:
+OMP: System error #11: Resource temporarily unavailable
+OMP: Hint: Try decreasing the value of OMP_NUM_THREADS.
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OMP: Error #34: System unable to allocate necessary resources for OMP thread:
+OMP: System error #11: Resource temporarily unavailable
+OMP: Hint: Try decreasing the value of OMP_NUM_THREADS.
+[Parallel(n_jobs=15)]: Done   4 tasks      | elapsed:  1.2min
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 1024 current, 257902 max
+OMP: Error #34: System unable to allocate necessary resources for OMP thread:
+OMP: System error #11: Resource temporarily unavailable
+OMP: Hint: Try decreasing the value of OMP_NUM_THREADS.
+OMP: Error #34: System unable to allocate necessary resources for OMP thread:
+OMP: System error #11: Resource temporarily unavailable
+OMP: Hint: Try decreasing the value of OMP_NUM_THREADS.
+OMP: Error #34: System unable to allocate necessary resources for OMP thread:
+OMP: System error #11: Resource temporarily unavailable
+OMP: Hint: Try decreasing the value of OMP_NUM_THREADS.
+OMP: Error #34: System unable to allocate necessary resources for OMP thread:
+OMP: System error #11: Resource temporarily unavailable
+OMP: Hint: Try decreasing the value of OMP_NUM_THREADS.
+OMP: Error #34: System unable to allocate necessary resources for OMP thread:
+OMP: System error #11: Resource temporarily unavailable
+OMP: Hint: Try decreasing the value of OMP_NUM_THREADS.
+[Parallel(n_jobs=15)]: Done   5 tasks      | elapsed:  3.6min
+Pickling array (shape=(92,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Process ForkPoolWorker-36:
+Traceback (most recent call last):
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/pool.py", line 360, in get
+    racquire()
+KeyboardInterrupt
+Process ForkPoolWorker-33:
+Traceback (most recent call last):
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/pool.py", line 360, in get
+    racquire()
+KeyboardInterrupt
+[CV] clf__C=1, clf__degree=1, clf__kernel=linear, svd__n_components=20, tfidf__ngram_range=(1, 2) 
+[CV]  clf__C=1, clf__degree=1, clf__kernel=linear, svd__n_components=20, tfidf__ngram_range=(1, 2), score=0.543478, total=  31.7s
+[CV] clf__C=1, clf__degree=1, clf__kernel=linear, svd__n_components=50, tfidf__ngram_range=(1, 2) 
+[CV]  clf__C=1, clf__degree=1, clf__kernel=linear, svd__n_components=50, tfidf__ngram_range=(1, 2), score=2.000000, total=  31.5s
+[CV] clf__C=1, clf__degree=1, clf__kernel=linear, svd__n_components=50, tfidf__ngram_range=(2, 5) 
+[CV]  clf__C=1, clf__degree=1, clf__kernel=linear, svd__n_components=50, tfidf__ngram_range=(2, 5), score=0.543478, total= 1.3min
+Process ForkPoolWorker-34:
+Traceback (most recent call last):
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/pool.py", line 360, in get
+    racquire()
+KeyboardInterrupt
+/home/iarroyof/anaconda2/envs/py36/lib/python3.6/site-packages/sklearn/model_selection/_validation.py:252: FitFailedWarning: Classifier fit failed. The score on this train-test partition for these parameters will be set to 2.000000. Details: 
+ValueError('n_components must be < n_features; got 50 >= 25',)
+  "Details: \n%r" % (error_score, e), FitFailedWarning)
+Process ForkPoolWorker-2:
+Traceback (most recent call last):
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/pool.py", line 360, in get
+    racquire()
+KeyboardInterrupt
+Process ForkPoolWorker-35:
+Traceback (most recent call last):
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/pool.py", line 360, in get
+    racquire()
+KeyboardInterrupt
+Process ForkPoolWorker-32:
+Traceback (most recent call last):
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/pool.py", line 362, in get
+    return recv()
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "clasificador-cromosoma.py", line 93, in <module>
+    grid.fit(list(it), getter_train(Y))
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/site-packages/sklearn/model_selection/_search.py", line 945, in fit
+    return self._fit(X, y, groups, ParameterGrid(self.param_grid))
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/site-packages/sklearn/model_selection/_search.py", line 564, in _fit
+    for parameters in parameter_iterable
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/parallel.py", line 768, in __call__
+    self.retrieve()
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/parallel.py", line 719, in retrieve
+    raise exception
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/parallel.py", line 682, in retrieve
+    self._output.extend(job.get(timeout=self.timeout))
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/multiprocessing/pool.py", line 638, in get
+    self.wait(timeout)
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/multiprocessing/pool.py", line 635, in wait
+    self._event.wait(timeout)
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/threading.py", line 551, in wait
+    signaled = self._cond.wait(timeout)
+  File "/home/iarroyof/anaconda2/envs/py36/lib/python3.6/threading.py", line 295, in wait
+    waiter.acquire()
+KeyboardInterrupt
