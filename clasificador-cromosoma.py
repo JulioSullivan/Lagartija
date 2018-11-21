@@ -82,7 +82,7 @@ it = Iterador(inputfa, in_train)
 
 grid = GridSearchCV(cromosoma, cv=3,  n_jobs=15, error_score=0.0 ,param_grid=parameters, verbose=100)
 
-resGRID = open('resultadosGRID_joinP1.txt', 'w')
+resGRID = open('resultadosGRID_joinP1_svd.txt', 'w')
 resGRID.flush()
 
 resGRID.write("Performing grid search...")
