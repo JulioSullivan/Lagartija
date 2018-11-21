@@ -60,7 +60,6 @@ cromosoma = Pipeline([
     ('tfidf', TfidfVectorizer(decode_error='replace', 
                 analyzer='char', ngram_range=(3,5), 
                 lowercase=False)),
-    ('svd', TruncatedSVD()),
     ('clf', svm.SVC(gamma='auto', random_state=42, C=50, 
                     decision_function_shape='ovo')),
 ])
@@ -68,7 +67,6 @@ cromosoma = Pipeline([
 parameters = {
     'tfidf__ngram_range':((1, 2), (1,3), (2, 3), (2, 4), (2, 5),
                          (3, 4), (3,5)),
-    'svd__n_components': (20, 50, 100, 150, 200, 250, 300),
     'clf__kernel': ('linear','poly'),
     'clf__degree': (1,2,3),
     #'clf__degree': (1,2),
