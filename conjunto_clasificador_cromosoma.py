@@ -51,7 +51,7 @@ cromosoma = Pipeline([
 parameters = {
     'tfidf__ngram_range':((2, 3), (2, 4), (2, 5), (3,4), (3, 5)),
     #'clf__degree': (1,2),
-    'clf__C': (500, 1000),
+    'clf__C': (500, 1000, 3000, 5000),
 }
 
 
