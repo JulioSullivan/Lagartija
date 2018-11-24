@@ -22,8 +22,8 @@ def plot_coefficients(classifier, feature_names, top_features=20):
     plt.xticks(np.arange(1, 1 + 2 * top_features), feature_names[top_coefficients], rotation=60, ha='right')
     plt.show()
 
-loaded_model = joblib.load('trained_model_joinP1.pkl')
-loaded_idf = joblib.load('tfidf_model_joinP1.pkl')
+loaded_model = joblib.load('trained_model_joinP3.pkl')
+loaded_idf = joblib.load('tfidf_model_joinP3.pkl')
 
 lista_aux = []
 indice_peso = []
@@ -39,7 +39,7 @@ vocabA = [0] * len(vocab)
 for i in range(20):
     print(indice_peso[i])
     for seq, key in vocab.items():
-        vocabA[key] = seq
+        vocabA[key] = seq.rstrip('\n')
         if key == indice_peso[i][1]:   
             print(seq)
 
