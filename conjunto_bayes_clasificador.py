@@ -52,7 +52,7 @@ parameters = {
 }
 
 
-for i in range(2, 11):
+for i in range(1, 2):
     vect = []
     Y = []
     X = []
