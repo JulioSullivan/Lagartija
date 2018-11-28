@@ -46,8 +46,8 @@ vect = []
 Y = []
 X = []
 
-inputfa = 'joinP1.fa'
-out_model = 'trained_model_bayes.pkl'
+inputfa = 'Archivos-join100/joinP1.fa'
+out_model = 'Modelos-Entrenados-NBayes/trained_model_bayes.pkl'
 
 with open(inputfa) as file:
     for line in file:
@@ -85,7 +85,7 @@ it = Iterador(inputfa, in_train)
 
 grid = GridSearchCV(cromosoma, cv=3,  n_jobs=15, error_score=0.0 ,param_grid=parameters, verbose=100)
 
-resGRID = open('resultadosGRID_joinP1_bayes.txt', 'w')
+resGRID = open('ResultadosGRID-NBayes/resultadosGRID_joinP1_bayes.txt', 'w')
 resGRID.flush()
 
 resGRID.write("Performing grid search...")
@@ -132,4 +132,4 @@ resGRID.close()
 
 # Luego, guardamos el modelo
 joblib.dump(grid.best_estimator_.named_steps['clf'], out_model, compress = 1)
-joblib.dump(grid.best_estimator_.named_steps['countV'], 'countV_model.pkl', compress = 1)
+joblib.dump(grid.best_estimator_.named_steps['countV'], 'Vocab-CountVs-NBayes/countV_model.pkl', compress = 1)

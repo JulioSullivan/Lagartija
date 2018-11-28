@@ -57,10 +57,10 @@ for i in range(1, 2):
     Y = []
     X = []
 
-    inputfa = 'joinP'+str(i)+'.fa'
-    out_model = 'trained_model_joinP'+str(i)+'_bayes.pkl'
-    out_tfidf = 'countV_model_joinP'+str(i)+'_bayes.pkl'
-    resultados_GRID = 'resultadosGRID_joinP'+str(i)+'_bayes.txt'
+    inputfa = 'Archivos-Join100/joinP'+str(i)+'.fa'
+    out_model = 'Modelos-Entrenados-NBayes/trained_model_joinP'+str(i)+'_bayes.pkl'
+    out_tfidf = 'Vocab-CountVs-NBayes/countV_model_joinP'+str(i)+'_bayes.pkl'
+    resultados_GRID = 'ResultadosGRID-NBayes/resultadosGRID_joinP'+str(i)+'_bayes.txt'
 
     with open(inputfa) as file:
         for line in file:

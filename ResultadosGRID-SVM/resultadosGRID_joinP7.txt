@@ -1,0 +1,79 @@
+Performing grid search...
+pipeline: cromosoma
+parameters: {'tfidf__ngram_range': ((2, 3), (2, 4), (2, 5), (3, 4), (3, 5)), 'clf__C': (500, 1000, 3000, 5000)}
+done in 157.173s
+
+Best score: 0.500
+Best parameters set:
+	steps: [('tfidf', TfidfVectorizer(analyzer='char', binary=False, decode_error='replace',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=False, max_df=1.0, max_features=None, min_df=1,
+        ngram_range=(2, 3), norm='l2', preprocessor=None, smooth_idf=True,
+        stop_words=None, strip_accents=None, sublinear_tf=False,
+        token_pattern='(?u)\\b\\w\\w+\\b', tokenizer=None, use_idf=True,
+        vocabulary=None)), ('clf', SVC(C=500, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovo', degree=1, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=42, shrinking=True,
+  tol=0.001, verbose=False))]
+	tfidf: TfidfVectorizer(analyzer='char', binary=False, decode_error='replace',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=False, max_df=1.0, max_features=None, min_df=1,
+        ngram_range=(2, 3), norm='l2', preprocessor=None, smooth_idf=True,
+        stop_words=None, strip_accents=None, sublinear_tf=False,
+        token_pattern='(?u)\\b\\w\\w+\\b', tokenizer=None, use_idf=True,
+        vocabulary=None)
+	clf: SVC(C=500, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovo', degree=1, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=42, shrinking=True,
+  tol=0.001, verbose=False)
+	tfidf__analyzer: 'char'
+	tfidf__binary: False
+	tfidf__decode_error: 'replace'
+	tfidf__dtype: <class 'numpy.int64'>
+	tfidf__encoding: 'utf-8'
+	tfidf__input: 'content'
+	tfidf__lowercase: False
+	tfidf__max_df: 1.0
+	tfidf__max_features: None
+	tfidf__min_df: 1
+	tfidf__ngram_range: (2, 3)
+	tfidf__norm: 'l2'
+	tfidf__preprocessor: None
+	tfidf__smooth_idf: True
+	tfidf__stop_words: None
+	tfidf__strip_accents: None
+	tfidf__sublinear_tf: False
+	tfidf__token_pattern: '(?u)\\b\\w\\w+\\b'
+	tfidf__tokenizer: None
+	tfidf__use_idf: True
+	tfidf__vocabulary: None
+	clf__C: 500
+	clf__cache_size: 200
+	clf__class_weight: None
+	clf__coef0: 0.0
+	clf__decision_function_shape: 'ovo'
+	clf__degree: 1
+	clf__gamma: 'auto'
+	clf__kernel: 'linear'
+	clf__max_iter: -1
+	clf__probability: False
+	clf__random_state: 42
+	clf__shrinking: True
+	clf__tol: 0.001
+	clf__verbose: False
+Classification report:
+             precision    recall  f1-score   support
+
+          0       0.45      0.48      0.46        27
+          1       0.55      0.52      0.53        33
+
+avg / total       0.50      0.50      0.50        60
+
+Model properties:
+Support size: [62 58]Support indices: [  1   2   7   8   9  11  13  16  17  22  26  30  35  36  37  38  39  40
+  41  42  43  46  48  51  53  59  60  62  63  64  67  68  69  70  76  77
+  80  83  84  85  86  88  97  99 100 102 103 104 106 107 108 114 115 119
+ 121 124 125 127 129 131 132 134   0   3   4   5   6  10  12  15  18  19
+  20  21  24  25  27  28  31  32  34  44  45  47  49  52  55  56  57  58
+  65  66  71  73  74  81  82  87  90  91  92  93  94  95  96  98 101 110
+ 111 112 113 116 118 120 122 123 126 133 136 137]

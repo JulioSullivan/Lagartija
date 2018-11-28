@@ -60,10 +60,10 @@ for i in range(4, 11):
     Y = []
     X = []
 
-    inputfa = 'joinP'+str(i)+'.fa'
-    out_model = 'trained_model_joinP'+str(i)+'.pkl'
-    out_tfidf = 'tfidf_model_joinP'+str(i)+'.pkl'
-    resultados_GRID = 'resultadosGRID_joinP'+str(i)+'.txt'
+    inputfa = 'Archivos-Join100/joinP'+str(i)+'.fa'
+    out_model = 'Modelos-Entrenados-SVM/trained_model_joinP'+str(i)+'.pkl'
+    out_tfidf = 'Vocab-TFIDFs-SVM/tfidf_model_joinP'+str(i)+'.pkl'
+    resultados_GRID = 'ResultadosGRID-SVM/resultadosGRID_joinP'+str(i)+'.txt'
 
     with open(inputfa) as file:
         for line in file:
